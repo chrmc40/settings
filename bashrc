@@ -1,7 +1,3 @@
-
-# banner
-echo -e "\033[1;32m[✅ Remote .bashrc • chrmc40/settings]\033[0m"
-
 # reload bashrc
 export PATH="$HOME/bin:$PATH"
 
