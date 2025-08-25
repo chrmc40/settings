@@ -4,6 +4,7 @@ export PATH="$HOME/bin:$PATH"
 
 # tree
 alias tree='tree -C -L 1'
+alias treefull='pwd && tree -haL 123'
 alias reload='source ~/.bashrc'
 
 # quick commit
