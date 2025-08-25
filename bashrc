@@ -1,10 +1,18 @@
 # reload bashrc
 export PATH="$HOME/bin:$PATH"
 
+# Alias to show full path and tree up to depth 123
+
 # tree
 alias tree='tree -C -L 1'
-alias treefull='pwd && tree -haL 123'
+# alias treefull='pwd && tree -haL 123'
 alias reload='source ~/.bashrc'
+
+fulltree() {
+  echo "Path: "
+  pwd
+  tree -hal 123
+}
 
 # quick commit
 commit() {
