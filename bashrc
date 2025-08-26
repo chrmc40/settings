@@ -8,7 +8,7 @@ alias tree='tree -C -L 1'
 # alias treefull='pwd && tree -haL 123'
 alias reload='source ~/.bashrc'
 
-fulltree() {
+treefull() {
   echo "Path: "
   pwd
   tree -hal 123
