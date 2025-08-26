@@ -11,7 +11,7 @@ alias reload='source ~/.bashrc'
 treefull() {
   echo "Path: "
   pwd
-  tree -hal 123
+  tree -haL 123
 }
 
 # quick commit
