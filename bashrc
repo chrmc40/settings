@@ -15,7 +15,9 @@ treefull() {
 }
 
 fulltree() {
-  treefull "$@"
+  echo "Path: "
+  pwd
+  tree -haL 123
 }
 
 # quick commit
