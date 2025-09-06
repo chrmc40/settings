@@ -14,6 +14,10 @@ treefull() {
   tree -haL 123
 }
 
+fulltree() {
+  treefull "$@"
+}
+
 # quick commit
 commit() {
 
